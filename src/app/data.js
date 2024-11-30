@@ -90,34 +90,12 @@ export const projectsData = [
 ];
 
 export const BtnList = [
-  { label: "Home", link: "/", icon: "home", newTab: false },
-  { label: "About", link: "/about", icon: "about", newTab: false },
-  { label: "Projects", link: "/projects", icon: "projects", newTab: false },
-  { label: "Contact", link: "/contact", icon: "contact", newTab: false },
-  {
-    label: "Github",
-    link: "https://www.github.com/codebucks27",
-    icon: "github",
-    newTab: true,
-  },
-  {
-    label: "LinkedIn",
-    link: "https://www.linkedin.com/in/codebucks",
-    icon: "linkedin",
-    newTab: true,
-  },
-  {
-    label: "X",
-    link: "https://www.x.com/code_bucks",
-    icon: "twitter",
-    newTab: true,
-  },
-  {
-    label: "Resume",
-    link: "/resume.pdf",
-    icon: "resume",
-    newTab: true,
-  },
+  { label: "Spinster Records", link: "/", icon: "Spinster Records", newTab: false },
+  { label: "Top-Ten Records", link: "/about", icon: "Top-Ten Records", newTab: false },
+  { label: "Good Records", link: "/projects", icon: "Good Records", newTab: false },
+  { label: "Josey Records - Farmers Branch", link: "/contact", icon: "Josey Records - Farmers Branch", newTab: false },
+  { label: "Dead Wax Records", link: "https://www.github.com/codebucks27", icon: "Dead Wax Records", newTab: true },
+  { label: "Off the Record", link: "https://www.linkedin.com/in/codebucks", icon: "Off the Record", newTab: true },
+  { label: "Black Cat Records", link: "https://www.x.com/code_bucks", icon: "Black Cat Records", newTab: true },
+  { label: "The Spin", link: "/resume.pdf", icon: "The Spin", newTab: true },
 ];
-
-
