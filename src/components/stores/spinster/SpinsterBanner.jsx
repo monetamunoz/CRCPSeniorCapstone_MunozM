@@ -11,7 +11,7 @@ export const Banner = () => {
   const [isDeleting, setIsDeleting] = useState(false);
   const [text, setText] = useState("");
   const [delta, setDelta] = useState(300 - Math.random() * 100);
-  const toRotate = ["Web Developer", "Web Designer", "UI/UX Designer"];
+  const toRotate = ["vinyl", "record players", "audio accessories", "local goods"];
   const period = 2000;
 
   useEffect(() => {
@@ -55,26 +55,29 @@ export const Banner = () => {
             <TrackVisibility>
               {({ isVisible }) => (
                 <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
-                  <span className="tagline">Welcome to my Portfolio</span>
+                  <span className="tagline">408 N Bishop Ave #102, Dallas, TX 75208</span>
                   <h1>
-                    {`Hi! I'm Judy`}{" "}
+                    {`Spinster Records selling`}{" "}
                     <span
                       className="txt-rotate"
                       dataPeriod="1000"
-                      data-rotate='[ "Web Developer", "Web Designer", "UI/UX Designer" ]'
+                      data-rotate='[ "vinyl", "record players", "audio accessories", "local goods" ]'
                     >
                       <span className="wrap">{text}</span>
                     </span>
                   </h1>
                   <p>
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                    Lorem Ipsum has been the industry's standard dummy text ever since the
-                    1500s, when an unknown printer took a galley of type and scrambled it to
-                    make a type specimen book.
+                  Indie shop specializing in vinyl records, turntables & music-inspired apparel, plus in-store events.
                   </p>
-                  <button onClick={() => console.log("connect")}>
-                    Let’s Connect <ArrowRightCircle size={25} />
-                  </button>
+                  <a
+                    href="https://www.spinsterrecords.com/?srsltid=AfmBOooSRTbN6MrLHfr_90Z7YYgoklD3KdxZRSeiYLINrP6J0xv1jXVZ"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <button>
+                      Store Website <ArrowRightCircle size={25} />
+                    </button>
+                  </a>
                 </div>
               )}
             </TrackVisibility>
@@ -84,8 +87,8 @@ export const Banner = () => {
               {({ isVisible }) => (
                 <div className={isVisible ? "animate__animated animate__zoomIn" : ""}>
                   <Image
-                    src="/assets/header-img.svg" // Move to public folder
-                    alt="Header Img"
+                    src="/icons/spinster.png" // Ensure this image is in the public/assets folder
+                    alt="logo"
                     width={500}
                     height={500}
                     priority

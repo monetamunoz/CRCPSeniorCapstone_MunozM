@@ -8,21 +8,19 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        itckabel: ['ITCKabelStdBold', 'sans-serif'], // Custom font
-        itckabelM: ['ITCKabelStdMedium', 'sans-serif'],
-        inter: ['var(--font-inter)'], 
+        itckabel: ['ITCKabelStdBold', 'sans-serif'], // For Spinster
+        itckabelM: ['ITCKabelStdMedium', 'sans-serif'], // For Spinster
+        centra: ['Centra', 'sans-serif'], // For Spinster
+        inter: ['Inter', 'sans-serif'], // For Home Page
       },
       colors: {
         background: 'rgb(var(--background))',
         foreground: 'rgb(var(--foreground))',
         muted: 'rgb(var(--muted))',
         accent: 'rgb(var(--accent))',
-        sliderTrack: 'rgb(255, 254, 166)', // Custom track color
-        sliderThumb: 'rgb(254, 254, 91)', // Custom thumb color
-        homeBar: 'rgb(212, 203, 210)', // Custom Home Top Menu color
-      },
-      backgroundImage: {
-        'floating-radial': "radial-gradient(50% 50% at 50% 50%, rgba(253, 255, 80, 0.5) 0%, rgba(217,217,217, 0) 100%)",
+        sliderTrack: 'rgb(255, 254, 166)',
+        sliderThumb: 'rgb(254, 254, 91)',
+        homeBar: 'rgb(212, 203, 210)',
       },
       boxShadow: {
         'glass-inset': 'inset 0 17px 5px -9px rgba(254,254,91, 0.05)',
@@ -31,14 +29,17 @@ module.exports = {
       keyframes: {
         'spin-reverse': {
           '0%': { transform: 'rotate(0deg)' },
-          '100%': { transform: 'rotate(-120deg)' },
+          '100%': { transform: 'rotate(-360deg)' },
         },
       },
       animation: {
         'spin-slow': 'spin 50s linear infinite',
-        'spin-slow-reverse': 'spin-reverse 50s linear infinite',
+        'spin-reverse': 'spin-reverse 50s linear infinite',
       },
     },
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/forms'),
+    require('@tailwindcss/typography'),
+  ],
 };

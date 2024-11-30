@@ -3,15 +3,10 @@
 import Image from "next/image";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import meter1 from "../assets/img/meter1.svg";
-import meter2 from "../assets/img/meter2.svg";
-import meter3 from "../assets/img/meter3.svg";
-import colorSharp from "../assets/img/color-sharp.png";
 
 export const Skills = () => {
   const responsive = {
     superLargeDesktop: {
-      // the naming can be any, depends on you.
       breakpoint: { max: 4000, min: 3000 },
       items: 5,
     },
@@ -48,19 +43,39 @@ export const Skills = () => {
                 className="owl-carousel owl-theme skill-slider"
               >
                 <div className="item">
-                  <Image src={meter1} alt="Web Development" />
+                  <Image
+                    src="/assets/img/meter1.svg"
+                    alt="Web Development"
+                    width={100}
+                    height={100}
+                  />
                   <h5>Web Development</h5>
                 </div>
                 <div className="item">
-                  <Image src={meter2} alt="Brand Identity" />
+                  <Image
+                    src="/assets/img/meter2.svg"
+                    alt="Brand Identity"
+                    width={100}
+                    height={100}
+                  />
                   <h5>Brand Identity</h5>
                 </div>
                 <div className="item">
-                  <Image src={meter3} alt="Logo Design" />
+                  <Image
+                    src="/assets/img/meter3.svg"
+                    alt="Logo Design"
+                    width={100}
+                    height={100}
+                  />
                   <h5>Logo Design</h5>
                 </div>
                 <div className="item">
-                  <Image src={meter1} alt="Web Development" />
+                  <Image
+                    src="/assets/img/meter1.svg"
+                    alt="Web Development"
+                    width={100}
+                    height={100}
+                  />
                   <h5>Web Development</h5>
                 </div>
               </Carousel>
@@ -70,9 +85,10 @@ export const Skills = () => {
       </div>
       <Image
         className="background-image-left"
-        src={colorSharp}
+        src="/assets/img/color-sharp.png"
         alt="Background Shape"
-        layout="intrinsic"
+        width={500}
+        height={500}
       />
     </section>
   );
