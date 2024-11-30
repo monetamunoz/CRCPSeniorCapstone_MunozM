@@ -1,10 +1,10 @@
 import React from "react";
 import NavBar from "../NavBar";
 import Banner from "./SpinsterBanner";
-import Skills from "../Skills";
-import Projects from "../Projects";
-import Contact from "../Contact";
-import Footer from "../Footer";
+
+import Projects from "./SpinsterLearnMore";
+
+import Footer from "./SpinsterFooter";
 
 const Spinster = () => {
   return (
@@ -13,7 +13,7 @@ const Spinster = () => {
       <Banner />
       {/* <Skills /> */}
       <Projects />
-      <Contact />
+      {/* <Contact /> */}
       <Footer />
     </div>
   );

@@ -1,15 +1,15 @@
 "use client";
 
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
-import { ProjectCard } from "./ProjectCard";
+import { ProjectCard } from "../ProjectCard";
 import Image from "next/image";
 import "animate.css"; // Animation CSS
 
 export const Projects = () => {
   const projects = [
-    {
+    { 
       // Sells Vinyl
-      title: "Vinyl Collection",
+      title : "Vinyl Collection",
       description: "Discover a curated selection of new and vintage vinyl records.",
       imgUrl: "/assets/img/Spinster_vinyl.webp",
     },
@@ -51,11 +51,16 @@ export const Projects = () => {
         <Row>
           <Col size={12}>
             <div>
-              <h2 className="text-gray-800">Learn More</h2>
+              <h2 className="text-homeBar font-itckabel">Learn More</h2>
               <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
-                standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a
-                type specimen book.
+              Spinster Records isn't just a store; it's a vibrant community hub for music lovers, 
+              vinyl enthusiasts, and creatives alike. Explore a curated selection of vintage and new vinyl, 
+              discover unique audio gear, and dive into the stories behind favorite records. 
+              </p>
+              <p>
+              From in-store events like live performances and industry panels to personalized recommendations 
+              from their knowledgeable staff, Spinster Records is a place where music and lifestyle intersect. 
+              Join in celebrating the art and culture of sound.
               </p>
               <Tab.Container id="projects-tabs" defaultActiveKey="first">
                 <Nav
@@ -64,13 +69,13 @@ export const Projects = () => {
                   id="pills-tab"
                 >
                   <Nav.Item>
-                    <Nav.Link eventKey="first">Highlights</Nav.Link>
+                    <Nav.Link eventKey="first" className="font-itckabelM">Highlights</Nav.Link>
                   </Nav.Item>
                   <Nav.Item>
-                    <Nav.Link eventKey="second">About</Nav.Link>
+                    <Nav.Link eventKey="second" className="font-itckabelM">About</Nav.Link>
                   </Nav.Item>
                   <Nav.Item>
-                    <Nav.Link eventKey="third">Location & Hours</Nav.Link>
+                    <Nav.Link eventKey="third" className="font-itckabelM">Location & Hours</Nav.Link>
                   </Nav.Item>
                 </Nav>
                 <Tab.Content id="slideInUp" className="animate__animated animate__slideInUp">

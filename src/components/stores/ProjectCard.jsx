@@ -17,7 +17,7 @@ export const ProjectCard = ({ title, description, imgUrl }) => {
           priority
         />
         <div className="proj-txtx">
-          <h4>{title}</h4>
+          <h4 className="font-itckabelM">{title}</h4>
           <span>{description}</span>
         </div>
       </div>
