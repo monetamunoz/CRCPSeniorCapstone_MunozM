@@ -11,7 +11,7 @@
 
 
 export const BtnList = [
-  { label: "Spinster Records", link: "/stores", icon: "Spinster Records", newTab: false },
+  { label: "Spinster Records", link: "/store/spinster", icon: "Spinster Records", newTab: false },
   { label: "Top-Ten Records", link: "/about", icon: "Top-Ten Records", newTab: false },
   { label: "Good Records", link: "/projects", icon: "Good Records", newTab: false },
   { label: "Josey Records - Farmers Branch", link: "/contact", icon: "Josey Records - Farmers Branch", newTab: false },
