@@ -11,7 +11,7 @@ export const Banner = () => {
   const [isDeleting, setIsDeleting] = useState(false);
   const [text, setText] = useState("");
   const [delta, setDelta] = useState(300 - Math.random() * 100);
-  const toRotate = ["vinyl", "record players", "audio accessories", "local goods"];
+  const toRotate = ["vinyl", "comics", "manga", "pop-culture contents" ];
   const period = 2000;
 
   useEffect(() => {

@@ -11,7 +11,7 @@ export const Banner = () => {
   const [isDeleting, setIsDeleting] = useState(false);
   const [text, setText] = useState("");
   const [delta, setDelta] = useState(300 - Math.random() * 100);
-  const toRotate = ["vinyl", "out-of-print albums", "hard-to-find collections", "post-punk", "britpop"];
+  const toRotate = ["vinyl", "CDs & tapes", "turntables", "movies, books, & video games", "audio accessories", "apparel", "music merchandise" ];
   const period = 2000;
 
   useEffect(() => {
@@ -55,22 +55,22 @@ export const Banner = () => {
             <TrackVisibility>
               {({ isVisible }) => (
                 <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
-                  <span className="tagline font-itckabelM text-white">1014 S Broadway St # 108, Carrollton, TX 75006</span>
+                  <span className="tagline font-itckabelM text-white">2821 Lyndon B Johnson Fwy #100, Farmers Branch, TX 75234</span>
                   <h1 className="font-itckabel">
-                    {`Dead Wax Records selling`}{" "}
+                    {`Josey Records selling`}{" "}
                     <span
                       className="txt-rotate"
                       dataPeriod="1000"
-                      data-rotate='[ "vinyl", "out-of-print albums", "hard-to-find collections", "post-punk", "britpop" ]'
+                      data-rotate='[ "vinyl", "CDs & tapes", "turntables", "movies, books, & video games", "audio accessories", "apparel", "music merchandise" ]'
                     >
                       <span className="wrap">{text}</span>
                     </span>
                   </h1>
                   <p>
-                  Record store with a wide selection of new and used vinyl, including rare and hard-to-find titles.
+                  Store with new and used vinyl, plus CDs, tapes, DVDs, turntables, posters, and live music.
                   </p>
                   <a
-                    href="http://www.deadwaxdallas.com/"
+                    href="http://www.joseyrecords.com/"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -87,7 +87,7 @@ export const Banner = () => {
               {({ isVisible }) => (
                 <div className={isVisible ? "animate__animated animate__zoomIn" : ""}>
                   <Image
-                    src="/icons/deadwaxrecords.png" 
+                    src="/icons/blackcatrecords.png" // Ensure this image is in the public/assets folder
                     alt="logo"
                     width={500}
                     height={500}

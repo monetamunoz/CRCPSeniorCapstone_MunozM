@@ -11,7 +11,7 @@ export const Banner = () => {
   const [isDeleting, setIsDeleting] = useState(false);
   const [text, setText] = useState("");
   const [delta, setDelta] = useState(300 - Math.random() * 100);
-  const toRotate = ["vinyl", "out-of-print albums", "hard-to-find collections", "post-punk", "britpop"];
+  const toRotate = ["vinyl", "new releases", "craft beer", "craft cocktails"];
   const period = 2000;
 
   useEffect(() => {
@@ -55,22 +55,22 @@ export const Banner = () => {
             <TrackVisibility>
               {({ isVisible }) => (
                 <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
-                  <span className="tagline font-itckabelM text-white">1014 S Broadway St # 108, Carrollton, TX 75006</span>
+                  <span className="tagline font-itckabelM text-white">2716 Elm St, Dallas, TX 75226</span>
                   <h1 className="font-itckabel">
-                    {`Dead Wax Records selling`}{" "}
+                    {`Off the Record selling`}{" "}
                     <span
                       className="txt-rotate"
                       dataPeriod="1000"
-                      data-rotate='[ "vinyl", "out-of-print albums", "hard-to-find collections", "post-punk", "britpop" ]'
+                      data-rotate='[ "vinyl", "new releases", "craft beer", "craft cocktails" ]'
                     >
                       <span className="wrap">{text}</span>
                     </span>
                   </h1>
                   <p>
-                  Record store with a wide selection of new and used vinyl, including rare and hard-to-find titles.
+                  Funky bar & record store, offering craft beers & a selection of vinyl records for sale.
                   </p>
                   <a
-                    href="http://www.deadwaxdallas.com/"
+                    href="https://www.facebook.com/OTRDallas/"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -87,7 +87,7 @@ export const Banner = () => {
               {({ isVisible }) => (
                 <div className={isVisible ? "animate__animated animate__zoomIn" : ""}>
                   <Image
-                    src="/icons/deadwaxrecords.png" 
+                    src="/icons/offtherecordbeerrecords.png" // Ensure this image is in the public/assets folder
                     alt="logo"
                     width={500}
                     height={500}
