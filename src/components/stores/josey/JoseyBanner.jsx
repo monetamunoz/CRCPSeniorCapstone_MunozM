@@ -87,7 +87,7 @@ export const Banner = () => {
               {({ isVisible }) => (
                 <div className={isVisible ? "animate__animated animate__zoomIn" : ""}>
                   <Image
-                    src="/icons/blackcatrecords.png" // Ensure this image is in the public/assets folder
+                    src="/icons/joseyrecords.png" 
                     alt="logo"
                     width={500}
                     height={500}

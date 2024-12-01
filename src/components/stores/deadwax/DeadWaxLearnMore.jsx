@@ -87,35 +87,31 @@ export const Projects = () => {
                     </Row>
                   </Tab.Pane>
                   <Tab.Pane eventKey="second">
-                    <p>
-                      Spinster Records, established in 2014, is a vinyl record and music lifestyle store located in the Oak Cliff neighborhood of Dallas, TX. 
-                      The shop offers a curated selection of new and vintage vinyl records, turntables, hi-fi audio hardware, apparel, books, jewelry, and unique items selected by the staff. 
-                      Weekly events include in-store performances, book signings, and music industry panels, making it a vibrant hub for music lovers.
+                      <p>
+                      Nestled in the heart of Carrollton, TX, Dead Wax Records is a haven for music enthusiasts, offering a carefully curated selection 
+                      of new and used vinyl that caters to a wide range of tastes. Specializing in post-punk, industrial, shoegaze, Britpop, and rare 
+                      indie gems from the '70s, '80s, and '90s, Dead Wax stands out as a niche destination for collectors and casual shoppers alike. From 
+                      out-of-print classics to Studio Ghibli soundtracks and everything in between, the shop’s selection emphasizes quality over quantity, 
+                      ensuring every visit is an opportunity to discover something extraordinary.
                       </p>
                       <p>
-                      In 2020, Spinster moved to the Bishop Arts District, enhancing its presence in a thriving community known for art, food, and culture. 
-                      The store features standout design elements, including the Big Red Wall and a mural of the Dallas skyline, 
-                      alongside locally designed Oak Cliff Apparel by Lewellyn’s Print Shop and exclusive items like pins and stickers from local artists.
-                      </p>
-                      <p>
-                      Spinster Records also buys vinyl records and hi-fi hardware, offering fair quotes. 
-                      Its services extend beyond the store with pop-ups, all-vinyl DJ sets, and event bookings. 
-                      Spinster continues to celebrate music and creativity.
+                      Opened as a brick-and-mortar store in 2022 after years of thriving in flea market pop-ups, Dead Wax has quickly become a community favorite. 
+                      Despite its modest size, the shop's clean, modern layout creates an inviting atmosphere, perfect for leisurely browsing or connecting 
+                      with fellow music lovers. Owner Alan Haworth’s dedication to creating a friendly, judgment-free space makes Dead Wax more than just a 
+                      record store—it’s a community hub where conversations flow as easily as the music. Whether you're seeking an obscure pressing, attending 
+                      an in-store event, or simply stopping by on your way to dinner, Dead Wax Records offers a refreshing, welcoming take on the classic record shop experience.
                     </p>
                   </Tab.Pane>
                   <Tab.Pane eventKey="third">
                     <p>
-                    Spinster Records is conveniently located in the heart of the vibrant Bishop Arts District at 408 N Bishop Ave, Suite 102, Dallas, TX 75208. 
-                    The store is easily accessible and surrounded by a lively neighborhood filled with shops, restaurants, and creative energy. 
+                    Dead Wax Records is located at 1014 S Broadway St, Suite 108, Carrollton, TX 75006, in the vibrant Downtown Carrollton area. Conveniently nestled near local dining favorites and accessible via the Downtown Carrollton Tram stop, the store is an ideal destination for music lovers and collectors alike. 
                     </p>
                     <p>
-                    Spinster Records welcomes visitors seven days a week, with hours tailored to fit your schedule: Monday through Thursday from 11:00 AM to 9:00 PM, 
-                    Friday and Saturday from 11:00 AM to 11:00 PM, and Sunday from 12:00 PM to 8:00 PM. Whether you're browsing for vinyl, shopping for unique gifts, 
-                    or attending one of our in-store events, they are here to provide a memorable experience.
+                    Dead Wax is open seven days a week, offering flexible hours to suit your schedule: Monday through Saturday from 11:00 AM to 7:00 PM and Sundays from 12:00 PM to 6:00 PM. Whether you're stopping by after brunch, before dinner, or during a leisurely afternoon, Dead Wax Records provides a welcoming space to explore its meticulously curated selection of vinyl, CDs, and more.
                     </p>
                     <div className="proj-imgbx" style={{ maxWidth: '250px', margin: '0 auto' }}>
                       <Image
-                        src="/assets/img/Spinster_map.png" // Replace with the actual image path
+                        src="/assets/img/deadwax/deadwax_map.png" // Replace with the actual image path
                         alt="Google Map Location"
                         className="img-fluid"
                         width={200}
@@ -124,7 +120,7 @@ export const Projects = () => {
                       />
                       <div className="proj-txtx">
                         <h4 className="font-itckabelM">Store Location</h4>
-                        <span>Find them at the heart of the Bishop Arts District.</span>
+                        <span>Find them in Downtown Carrollton.</span>
                       </div>
                     </div>
                   </Tab.Pane>

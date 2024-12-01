@@ -8,41 +8,41 @@ import "animate.css"; // Animation CSS
 export const Projects = () => {
   const projects = [
     { 
-      // Sells Vinyl
-      title : "Vinyl Collection",
-      description: "Discover a curated selection of new and vintage vinyl records.",
-      imgUrl: "/assets/img/Spinster_vinyl.webp",
-    },
-    {
-      // Sells turntables
-      title: "Turntables",
-      description: "Shop high-quality turntables for your listening experience.",
-      imgUrl: "/assets/img/Spinster_products.webp",
-    },
-    {
-      // Sells audio accessories
-      title: "Audio Accessories",
-      description: "Enhance your setup with premium audio gear and accessories.",
-      imgUrl: "/assets/img/Spinster_accessories.webp",
-    },
-    {
-      // Purchases Vinyl
-      title: "Sell Your Vinyl",
-      description: "Bring in your records and sell them for cash or store credit.",
-      imgUrl: "/assets/img/Spinster_purchase.webp",
-    },
-    {
-      // Has a concert stage for their venue
-    title: "Live Music Stage",
-    description: "Enjoy live performances at their in-store concert stage.",
-    imgUrl: "/assets/img/Spinster_stage.png",
-    },
-    {
-      // RSD Participant
-    title: "Record Store Day Participant",
-    description: "Join for exclusive vinyl releases and events on RSD.",
-    imgUrl: "/assets/img/Spinster_RSD.png",
-    },
+        // Sells CDs, movies, records, & tapes
+        title: "Diverse Media Collection",
+        description: "Browse CDs, vinyl records, tapes, and even movies for all tastes.",
+        imgUrl: "/assets/img/topten/topten_media.jpg", // Replace with actual path
+      },
+      {
+        // Unique Vinyl Organization
+        title: "Vibe-Based Vinyl Organization",
+        description: "Albums sorted by vibes like 'Good With Dinner,' not just genres.",
+        imgUrl: "/assets/img/topten/topten_vibes.jpg", // Replace with actual path
+      },
+      {
+        // Hosts events (music, film, poetry)
+        title: "Cultural Events",
+        description: "Attend live music, film screenings, poetry readings, and art exhibits.",
+        imgUrl: "/assets/img/topten/topten_events.jpg", // Replace with actual path
+      },
+      {
+        // Has a Texas music archive
+        title: "Texas Music Archive",
+        description: "Explore rare media documenting Texas' rich music and film history.",
+        imgUrl: "/assets/img/topten/topten_archive.jpg", // Replace with actual path
+      },
+      {
+        // Retro Listening Area
+        title: "Retro Listening Area",
+        description: "Enjoy in-store listening with vintage equipment in a nostalgic setup.",
+        imgUrl: "/assets/img/topten/topten_listening.jpg", // Replace with actual path
+      },
+      {
+        // Community-Focused Mission
+        title: "Community-Focused Mission",
+        description: "Preserving Oak Cliff's history while supporting local artists and culture.",
+        imgUrl: "/assets/img/topten/topten_community.jpg", // Replace with actual path
+      },
   ];
 
   return (
@@ -53,15 +53,12 @@ export const Projects = () => {
             <div>
               <h2 className="text-homeBar font-itckabel">Learn More</h2>
               <p>
-              Spinster Records isn't just a store; it's a vibrant community hub for music lovers, 
-              vinyl enthusiasts, and creatives alike. Explore a curated selection of vintage and new vinyl, 
-              discover unique audio gear, and dive into the stories behind favorite records. 
-              </p>
-              <p>
-              From in-store events like live performances and industry panels to personalized recommendations 
-              from their knowledgeable staff, Spinster Records is a place where music and lifestyle intersect. 
-              Join in celebrating the art and culture of sound.
-              </p>
+Top Ten Records stands as a testament to the vibrant cultural history of Oak Cliff, blending nostalgia with a forward-looking mission. 
+Founded in 1956, this iconic Dallas landmark offers a diverse collection of music, movies, and media that reflects decades of cultural evolution. 
+From rare vinyl and tapes to uniquely categorized albums, Top Ten Records creates an eclectic experience for 
+music lovers. Its retro listening area, paired with its Texas Music Archive, provides a bridge between the past and present, preserving the rich 
+musical and cinematic heritage of Texas while fostering a space for discovery and creativity. 
+</p>
               <Tab.Container id="projects-tabs" defaultActiveKey="first">
                 <Nav
                   variant="pills"
@@ -88,34 +85,39 @@ export const Projects = () => {
                   </Tab.Pane>
                   <Tab.Pane eventKey="second">
                     <p>
-                      Spinster Records, established in 2014, is a vinyl record and music lifestyle store located in the Oak Cliff neighborhood of Dallas, TX. 
-                      The shop offers a curated selection of new and vintage vinyl records, turntables, hi-fi audio hardware, apparel, books, jewelry, and unique items selected by the staff. 
-                      Weekly events include in-store performances, book signings, and music industry panels, making it a vibrant hub for music lovers.
+                        Top Ten Records, established in 1956 in the Oak Cliff neighborhood of Dallas, TX, is the city’s longest-running record store and a 
+                        cultural landmark with a rich history. Initially a community record shop and concert ticket outlet, it gained notoriety in 1963 as 
+                        the last public place where Officer J.D. Tippit was seen before his tragic encounter with Lee Harvey Oswald. Today, Top Ten operates 
+                        as a nonprofit organization known as Oak Cliff Records Library, combining its legacy as a record store with a mission to preserve and 
+                        promote Texas music and film history.
                       </p>
                       <p>
-                      In 2020, Spinster moved to the Bishop Arts District, enhancing its presence in a thriving community known for art, food, and culture. 
-                      The store features standout design elements, including the Big Red Wall and a mural of the Dallas skyline, 
-                      alongside locally designed Oak Cliff Apparel by Lewellyn’s Print Shop and exclusive items like pins and stickers from local artists.
+                      The store boasts a unique blend of retail, archiving, and cultural programming. Guests can explore a curated collection of vinyl records 
+                      emphasizing Texas-based artists, borrow rare and vintage media from its music library, or enjoy in-store listening in a retro-inspired area. 
+                      Albums are categorized by vibe, such as the “Good With Dinner” section, maintaining the store’s eclectic charm. Beyond records, Top Ten hosts 
+                      small cultural events, including concerts, film screenings, workshops, and art exhibits, serving as a hub for local culture.
                       </p>
                       <p>
-                      Spinster Records also buys vinyl records and hi-fi hardware, offering fair quotes. 
-                      Its services extend beyond the store with pop-ups, all-vinyl DJ sets, and event bookings. 
-                      Spinster continues to celebrate music and creativity.
+                      Top Ten Records is dedicated to preserving Oak Cliff’s history and fostering media literacy through its Texas Music Archive project. 
+                      It welcomes volunteers, donations of rare Texas music and film media, and community support to sustain its mission. This historic record 
+                      store remains a vibrant resource for music lovers and cultural enthusiasts alike.
                     </p>
                   </Tab.Pane>
                   <Tab.Pane eventKey="third">
                     <p>
-                    Spinster Records is conveniently located in the heart of the vibrant Bishop Arts District at 408 N Bishop Ave, Suite 102, Dallas, TX 75208. 
-                    The store is easily accessible and surrounded by a lively neighborhood filled with shops, restaurants, and creative energy. 
+                    Top Ten Records is located in the heart of the vibrant Oak Cliff neighborhood at 338 W. Jefferson Blvd, Dallas, TX. 
+                    Situated amidst a bustling community of art, culture, and history, the shop serves as a landmark for music lovers and archivists alike. 
+                    Its convenient location makes it easily accessible, whether you're exploring the city's heritage or diving into its thriving creative scene. 
+                    Visitors are welcomed to experience a blend of nostalgia and innovation at this historic record store.
                     </p>
                     <p>
-                    Spinster Records welcomes visitors seven days a week, with hours tailored to fit your schedule: Monday through Thursday from 11:00 AM to 9:00 PM, 
-                    Friday and Saturday from 11:00 AM to 11:00 PM, and Sunday from 12:00 PM to 8:00 PM. Whether you're browsing for vinyl, shopping for unique gifts, 
-                    or attending one of our in-store events, they are here to provide a memorable experience.
+                    Currently, Top Ten Records operates with limited hours, opening its doors from Wednesday to Thursday between 3 PM and 8 PM, 
+                    and Friday to Saturday from 12 PM to 9 PM. On Sundays, the shop remains open from 12 PM to 8 PM, offering ample time to browse 
+                    its curated collections or participate in one of its cultural events.
                     </p>
                     <div className="proj-imgbx" style={{ maxWidth: '250px', margin: '0 auto' }}>
                       <Image
-                        src="/assets/img/Spinster_map.png" // Replace with the actual image path
+                        src="/assets/img/topten/topten_map.png" // Replace with the actual image path
                         alt="Google Map Location"
                         className="img-fluid"
                         width={200}
@@ -124,7 +126,7 @@ export const Projects = () => {
                       />
                       <div className="proj-txtx">
                         <h4 className="font-itckabelM">Store Location</h4>
-                        <span>Find them at the heart of the Bishop Arts District.</span>
+                        <span>Find them near the heart of the Bishop Arts District.</span>
                       </div>
                     </div>
                   </Tab.Pane>

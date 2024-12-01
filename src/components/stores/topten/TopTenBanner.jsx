@@ -11,7 +11,7 @@ export const Banner = () => {
   const [isDeleting, setIsDeleting] = useState(false);
   const [text, setText] = useState("");
   const [delta, setDelta] = useState(300 - Math.random() * 100);
-  const toRotate = ["vinyl", "CDs, tapes, & movies", "apparel & local goods"];
+  const toRotate = ["vinyl", "CDs, tapes, & movies", "turntables", "apparel & local goods"];
   const period = 2000;
 
   useEffect(() => {
@@ -57,11 +57,11 @@ export const Banner = () => {
                 <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                   <span className="tagline font-itckabelM text-white">338 Jefferson Blvd, Dallas, TX 75208</span>
                   <h1 className="font-itckabel">
-                    {`Top Tex Records selling`}{" "}
+                    {`Top Ten Records selling`}{" "}
                     <span
                       className="txt-rotate"
                       dataPeriod="1000"
-                      data-rotate='[ "vinyl", "CDs, tapes, & movies", "apparel & local goods" ]'
+                      data-rotate='[ "vinyl", "CDs, tapes, & movies", "turntables", "apparel & local goods" ]'
                     >
                       <span className="wrap">{text}</span>
                     </span>

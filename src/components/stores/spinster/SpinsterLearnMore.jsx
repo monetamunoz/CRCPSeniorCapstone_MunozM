@@ -11,37 +11,37 @@ export const Projects = () => {
       // Sells Vinyl
       title : "Vinyl Collection",
       description: "Discover a curated selection of new and vintage vinyl records.",
-      imgUrl: "/assets/img/Spinster_vinyl.webp",
+      imgUrl: "/assets/img/spinster/Spinster_vinyl.webp",
     },
     {
       // Sells turntables
       title: "Turntables",
       description: "Shop high-quality turntables for your listening experience.",
-      imgUrl: "/assets/img/Spinster_products.webp",
+      imgUrl: "/assets/img/spinster/Spinster_products.webp",
     },
     {
       // Sells audio accessories
       title: "Audio Accessories",
       description: "Enhance your setup with premium audio gear and accessories.",
-      imgUrl: "/assets/img/Spinster_accessories.webp",
+      imgUrl: "/assets/img/spinster/Spinster_accessories.webp",
     },
     {
       // Purchases Vinyl
       title: "Sell Your Vinyl",
       description: "Bring in your records and sell them for cash or store credit.",
-      imgUrl: "/assets/img/Spinster_purchase.webp",
+      imgUrl: "/assets/img/spinster/Spinster_purchase.webp",
     },
     {
       // Has a concert stage for their venue
     title: "Live Music Stage",
     description: "Enjoy live performances at their in-store concert stage.",
-    imgUrl: "/assets/img/Spinster_stage.png",
+    imgUrl: "/assets/img/spinster/Spinster_stage.png",
     },
     {
       // RSD Participant
     title: "Record Store Day Participant",
     description: "Join for exclusive vinyl releases and events on RSD.",
-    imgUrl: "/assets/img/Spinster_RSD.png",
+    imgUrl: "/assets/img/spinster/Spinster_RSD.png",
     },
   ];
 
@@ -115,7 +115,7 @@ export const Projects = () => {
                     </p>
                     <div className="proj-imgbx" style={{ maxWidth: '250px', margin: '0 auto' }}>
                       <Image
-                        src="/assets/img/Spinster_map.png" // Replace with the actual image path
+                        src="/assets/img/spinster/Spinster_map.png" // Replace with the actual image path
                         alt="Google Map Location"
                         className="img-fluid"
                         width={200}

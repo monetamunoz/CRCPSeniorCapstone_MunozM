@@ -11,7 +11,7 @@ const Josey = dynamic(() => import("@/components/stores/josey/Josey"), {
 const JoseyPage = () => {
   return (
     <div>
-      <Spinster />
+      <Josey />
     </div>
   );
 };

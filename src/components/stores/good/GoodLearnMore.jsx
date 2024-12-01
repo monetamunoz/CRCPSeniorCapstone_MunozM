@@ -7,41 +7,41 @@ import "animate.css"; // Animation CSS
 
 export const Projects = () => {
   const projects = [
-    { 
-      // Sells Vinyl
-      title : "Vinyl Collection",
-      description: "Discover a curated selection of new and vintage vinyl records.",
-      imgUrl: "/assets/img/Spinster_vinyl.webp",
-    },
     {
-      // Sells turntables
-      title: "Turntables",
-      description: "Shop high-quality turntables for your listening experience.",
-      imgUrl: "/assets/img/Spinster_products.webp",
-    },
-    {
-      // Sells audio accessories
-      title: "Audio Accessories",
-      description: "Enhance your setup with premium audio gear and accessories.",
-      imgUrl: "/assets/img/Spinster_accessories.webp",
-    },
-    {
-      // Purchases Vinyl
-      title: "Sell Your Vinyl",
-      description: "Bring in your records and sell them for cash or store credit.",
-      imgUrl: "/assets/img/Spinster_purchase.webp",
-    },
-    {
-      // Has a concert stage for their venue
-    title: "Live Music Stage",
-    description: "Enjoy live performances at their in-store concert stage.",
-    imgUrl: "/assets/img/Spinster_stage.png",
-    },
+        // Extensive Vinyl Collection
+        title: "Vinyl Collection",
+        description: "Explore a diverse range of new and used vinyl records across various genres.",
+        imgUrl: "/assets/img/good/good_vinyl.jpg",
+      },
+      {
+        // Live Performances
+        title: "Live Performances",
+        description: "Experience intimate in-store performances by renowned and local artists.",
+        imgUrl: "/assets/img/good/good_stage.jpg",
+      },
+      {
+        // Community Champion of Vinyl Revival
+        title: "Pioneers of Vinyl Revival",
+        description: "Proud supporters of Record Store Day and champions of Dallas’ vinyl culture.",
+        imgUrl: "/assets/img/good/good_champion.jpg",
+      },
+      {
+        // Purchases Used Vinyl
+        title: "Sell Your Vinyl",
+        description: "Trade your vinyl for cash or store credit with fair and customer-oriented offers.",
+        imgUrl: "/assets/img/good/good_used.jpg",
+      },
+      {
+        // Unique Store Atmosphere
+        title: "Colorful Store Vibes",
+        description: "Enjoy vibrant decor with yellow racks, colorful lighting, and a retro stage.",
+        imgUrl: "/assets/img/good/good_vibes.jpg",
+      },
     {
       // RSD Participant
     title: "Record Store Day Participant",
     description: "Join for exclusive vinyl releases and events on RSD.",
-    imgUrl: "/assets/img/Spinster_RSD.png",
+    imgUrl: "/assets/img/good/good_rsd.jpg",
     },
   ];
 
@@ -53,14 +53,13 @@ export const Projects = () => {
             <div>
               <h2 className="text-homeBar font-itckabel">Learn More</h2>
               <p>
-              Spinster Records isn't just a store; it's a vibrant community hub for music lovers, 
-              vinyl enthusiasts, and creatives alike. Explore a curated selection of vintage and new vinyl, 
-              discover unique audio gear, and dive into the stories behind favorite records. 
-              </p>
-              <p>
-              From in-store events like live performances and industry panels to personalized recommendations 
-              from their knowledgeable staff, Spinster Records is a place where music and lifestyle intersect. 
-              Join in celebrating the art and culture of sound.
+              Good Records is more than just a record store; it’s a cornerstone of Dallas’ music scene and a vibrant haven for vinyl enthusiasts. 
+            Since opening in 2000, the store has championed the city’s vinyl revival with a curated selection of new and used records spanning 
+            genres from indie rock to Motown and jazz. 
+            </p>
+            <p>Its colorful racks, adorned with yellow paint and vibrant light bulbs, reflect the eclectic 
+            energy of its collection and the community it serves. Good Records is also a hub for live music, hosting intimate performances by both 
+            local and renowned artists, fostering a space where music and culture thrive.
               </p>
               <Tab.Container id="projects-tabs" defaultActiveKey="first">
                 <Nav
@@ -88,34 +87,30 @@ export const Projects = () => {
                   </Tab.Pane>
                   <Tab.Pane eventKey="second">
                     <p>
-                      Spinster Records, established in 2014, is a vinyl record and music lifestyle store located in the Oak Cliff neighborhood of Dallas, TX. 
-                      The shop offers a curated selection of new and vintage vinyl records, turntables, hi-fi audio hardware, apparel, books, jewelry, and unique items selected by the staff. 
-                      Weekly events include in-store performances, book signings, and music industry panels, making it a vibrant hub for music lovers.
-                      </p>
-                      <p>
-                      In 2020, Spinster moved to the Bishop Arts District, enhancing its presence in a thriving community known for art, food, and culture. 
-                      The store features standout design elements, including the Big Red Wall and a mural of the Dallas skyline, 
-                      alongside locally designed Oak Cliff Apparel by Lewellyn’s Print Shop and exclusive items like pins and stickers from local artists.
-                      </p>
-                      <p>
-                      Spinster Records also buys vinyl records and hi-fi hardware, offering fair quotes. 
-                      Its services extend beyond the store with pop-ups, all-vinyl DJ sets, and event bookings. 
-                      Spinster continues to celebrate music and creativity.
+                    Since its establishment on February 7, 2000, Good Records has been a cornerstone of Dallas' music scene, championing the city’s vinyl revival 
+                    and becoming a must-visit destination for record enthusiasts. This vibrant store is a treasure trove for 
+                    music lovers, offering a carefully curated selection of new and used records, CDs, DVDs, and turntables. Known for its iconic racks painted 
+                    in yellow and adorned with colored light bulbs, Good Records delivers an unforgettable shopping experience that blends nostalgia with discovery.
                     </p>
+                      <p>
+                      Good Records has also made a name for itself as a hub for live music. The store’s back-stage area, often used as a listening center, 
+                      transforms into an intimate venue for performances by both local and touring bands. Over the years, it has hosted an impressive lineup 
+                      of artists, including St. Vincent, Erykah Badu, Death Cab for Cutie, and Queens of the Stone Age, cementing its place as a cultural 
+                      landmark in the Dallas music community. Whether you’re browsing their shelves for obscure gems, picking up an order, or enjoying a live set, 
+                      Good Records is more than a store—it’s a celebration of music and the community it inspires.
+                      </p>
                   </Tab.Pane>
                   <Tab.Pane eventKey="third">
                     <p>
-                    Spinster Records is conveniently located in the heart of the vibrant Bishop Arts District at 408 N Bishop Ave, Suite 102, Dallas, TX 75208. 
-                    The store is easily accessible and surrounded by a lively neighborhood filled with shops, restaurants, and creative energy. 
-                    </p>
-                    <p>
-                    Spinster Records welcomes visitors seven days a week, with hours tailored to fit your schedule: Monday through Thursday from 11:00 AM to 9:00 PM, 
-                    Friday and Saturday from 11:00 AM to 11:00 PM, and Sunday from 12:00 PM to 8:00 PM. Whether you're browsing for vinyl, shopping for unique gifts, 
-                    or attending one of our in-store events, they are here to provide a memorable experience.
+                    Good Records is conveniently located at 9026 Garland Road, Dallas, TX, in a vibrant area that’s easily accessible for locals and visitors alike. 
+                    Open seven days a week from 12:00 PM to 8:00 PM, the store provides a welcoming space for music lovers to explore its extensive collection of 
+                    new and used records, CDs, and other media. Whether you’re stopping by for in-store shopping, picking up a local order, or browsing for your next 
+                    favorite album, Good Records ensures an enjoyable and seamless experience. Its iconic yellow racks and colorful atmosphere make it a standout 
+                    destination for anyone passionate about music and vinyl culture.
                     </p>
                     <div className="proj-imgbx" style={{ maxWidth: '250px', margin: '0 auto' }}>
                       <Image
-                        src="/assets/img/Spinster_map.png" // Replace with the actual image path
+                        src="/assets/img/good/good_map.png" // Replace with the actual image path
                         alt="Google Map Location"
                         className="img-fluid"
                         width={200}
@@ -124,7 +119,7 @@ export const Projects = () => {
                       />
                       <div className="proj-txtx">
                         <h4 className="font-itckabelM">Store Location</h4>
-                        <span>Find them at the heart of the Bishop Arts District.</span>
+                        <span>Find them near White Rock Lake.</span>
                       </div>
                     </div>
                   </Tab.Pane>
