@@ -14,8 +14,8 @@ const getIcon = (icon) => {
       return <Image src="/icons/topten.webp" alt="Top-Ten Records" width={20} height={20} />;
     case "Good Records":
       return <Image src="/icons/goodrecords.png" alt="Good Records" width={20} height={20} />;
-    case "Josey Records - Farmers Branch":
-      return <Image src="/icons/joseyrecords.png" alt="Josey Records - Farmers Branch" width={20} height={20} />;
+    case "Josey Records - Dallas":
+      return <Image src="/icons/joseyrecords.png" alt="Josey Records - DALLAS" width={20} height={20} />;
     case "Dead Wax Records":
       return <Image src="/icons/deadwaxrecords.png" alt="Dead Wax Records" width={20} height={20} />;
     case "Off the Record":
@@ -30,7 +30,7 @@ const getIcon = (icon) => {
 };
 
 const additionalLinks = [
-  { label: "Spinster Records", link: "/", icon: "Spinster Records", newTab: false },
+  { label: "Spinster Records", link: "/stores/spinster", icon: "Spinster Records", newTab: false },
   { label: "Top-Ten Records", link: "/about", icon: "Top-Ten Records", newTab: false },
   { label: "Good Records", link: "/projects", icon: "Good Records", newTab: false },
   { label: "Josey Records - Farmers Branch", link: "/contact", icon: "Josey Records - Farmers Branch", newTab: false },
@@ -52,8 +52,7 @@ const DropdownMenu = () => {
       {/* Dropdown Button */}
       <button
         onClick={toggleDropdown}
-        className="text-gray-800 font-itckabelM rounded-full flex items-center justify-center
-                   hover:bg-white/20 transition-all px-4 py-2"
+        className="text-gray-800 font-itckabelM bg-homeBar/50 hover:bg-homeBar/80 text-gray-800 px-4 py-2 rounded-lg shadow-md transition-all"
       >
         Record Stores
       </button>
@@ -65,18 +64,18 @@ const DropdownMenu = () => {
           animate={{ opacity: 1, y: 0 }}
           exit={{ opacity: 0, y: -10 }}
           transition={{ duration: 0.3 }}
-          className="mt-2 bg-homeBar/20 border border-homeBar/30 rounded-lg shadow-glass-inset backdrop-blur-sm"
+          className="absolute mt-2  bg-homeBar/50 backdrop-blur-md rounded-lg shadow-lg w-48"
         >
           {additionalLinks.map((link, index) => (
             <Link
               key={index}
               href={link.link}
               target={link.newTab ? "_blank" : "_self"}
-              className="font-itckabelM text-gray-800 flex items-center gap-2 p-2 hover:bg-accent/20 border border-transparent rounded transition-all"
+              className="font-itckabelM text-gray-800 flex items-center gap-1 pl-3 py-2 hover:bg-homeBar/90 text-dark rounded transition-all"
             >
               {/* Add the icon before the label */}
               {getIcon(link.icon)}
-              {link.label}
+              <span className="font-itckabelM">{link.label}</span>
             </Link>
           ))}
         </motion.div>
@@ -86,3 +85,4 @@ const DropdownMenu = () => {
 };
 
 export default DropdownMenu;
+

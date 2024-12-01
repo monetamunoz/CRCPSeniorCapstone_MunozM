@@ -7,13 +7,12 @@ export const ProjectCard = ({ title, description, imgUrl }) => {
   return (
     <Col size={12} sm={6} md={4}>
       <div className="proj-imgbx">
-        {/* Use Next.js Image for optimized rendering */}
-        <Image 
-          src={imgUrl} 
-          alt={`${title} Project Image`} 
-          className="img-fluid" 
-          width={300} 
-          height={200} 
+        <Image
+          src={imgUrl}
+          alt={`${title} Project Image`}
+          className="img-fluid"
+          width={300}
+          height={200}
           priority
         />
         <div className="proj-txtx">

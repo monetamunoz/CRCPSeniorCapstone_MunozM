@@ -11,8 +11,8 @@ const getIcon = (icon) => {
       return <Image src="/icons/topten.webp" alt="Top-Ten Records" width={50} height={50} />;
     case "Good Records":
       return <Image src="/icons/goodrecords.png" alt="Good Records" width={50} height={50} />;
-    case "Josey Records - Farmers Branch":
-      return <Image src="/icons/joseyrecords.png" alt="Josey Records - Farmers Branch" width={50} height={50} />;
+    case "Josey Records - Dallas":
+      return <Image src="/icons/joseyrecords.png" alt="Josey Records - Dallas" width={50} height={50} />;
     case "Dead Wax Records":
       return <Image src="/icons/deadwaxrecords.png" alt="Dead Wax Records" width={50} height={50} />;
     case "Off the Record":

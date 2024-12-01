@@ -12,11 +12,11 @@
 
 export const BtnList = [
   { label: "Spinster Records", link: "/store/spinster", icon: "Spinster Records", newTab: false },
-  { label: "Top-Ten Records", link: "/about", icon: "Top-Ten Records", newTab: false },
-  { label: "Good Records", link: "/projects", icon: "Good Records", newTab: false },
-  { label: "Josey Records - Farmers Branch", link: "/contact", icon: "Josey Records - Farmers Branch", newTab: false },
-  { label: "Dead Wax Records", link: "https://www.github.com/codebucks27", icon: "Dead Wax Records", newTab: true },
-  { label: "Off the Record", link: "https://www.linkedin.com/in/codebucks", icon: "Off the Record", newTab: true },
-  { label: "Black Cat Records", link: "https://www.x.com/code_bucks", icon: "Black Cat Records", newTab: true },
-  { label: "The Spin", link: "/resume.pdf", icon: "The Spin", newTab: true },
+  { label: "Top-Ten Records", link: "/store/topten", icon: "Top-Ten Records", newTab: false },
+  { label: "Good Records", link: "/store/good", icon: "Good Records", newTab: false },
+  { label: "Josey Records - Dallas", link: "/store/josey", icon: "Josey Records - Dallas", newTab: false },
+  { label: "Dead Wax Records", link: "/store/deadwax", icon: "Dead Wax Records", newTab: false },
+  { label: "Off the Record", link: "/store/offtherecord", icon: "Off the Record", newTab: false },
+  { label: "Black Cat Records", link: "/store/blackcat", icon: "Black Cat Records", newTab: false },
+  { label: "The Spin", link: "/store/thespin", icon: "The Spin", newTab: false },
 ];

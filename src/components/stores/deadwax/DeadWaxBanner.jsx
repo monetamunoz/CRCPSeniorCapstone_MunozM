@@ -55,22 +55,22 @@ export const Banner = () => {
             <TrackVisibility>
               {({ isVisible }) => (
                 <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
-                  <span className="tagline font-itckabelM text-white">408 N Bishop Ave #102, Dallas, TX 75208</span>
+                  <span className="tagline font-itckabelM text-white">1014 S Broadway St # 108, Carrollton, TX 75006</span>
                   <h1 className="font-itckabel">
-                    {`Spinster Records selling`}{" "}
+                    {`Dead Wax Records selling`}{" "}
                     <span
                       className="txt-rotate"
                       dataPeriod="1000"
-                      data-rotate='[ "vinyl", "record players", "audio accessories", "local goods" ]'
+                      data-rotate='[ "vinyl", "comics", "manga", "pop-culture contents" ]'
                     >
                       <span className="wrap">{text}</span>
                     </span>
                   </h1>
                   <p>
-                  Indie shop specializing in vinyl records, turntables & music-inspired apparel, plus in-store events.
+                  Record store with a wide selection of new and used vinyl, including rare and hard-to-find titles.
                   </p>
                   <a
-                    href="https://www.spinsterrecords.com/?srsltid=AfmBOooSRTbN6MrLHfr_90Z7YYgoklD3KdxZRSeiYLINrP6J0xv1jXVZ"
+                    href="https://blackcatrnc.com/"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -87,7 +87,7 @@ export const Banner = () => {
               {({ isVisible }) => (
                 <div className={isVisible ? "animate__animated animate__zoomIn" : ""}>
                   <Image
-                    src="/icons/spinster.png" // Ensure this image is in the public/assets folder
+                    src="/icons/blackcatrecords.png" // Ensure this image is in the public/assets folder
                     alt="logo"
                     width={500}
                     height={500}

@@ -1,9 +1,7 @@
 import React from "react";
 import NavBar from "../NavBar";
 import Banner from "./SpinsterBanner";
-
-import Projects from "./SpinsterLearnMore";
-
+import LearnMore from "./SpinsterLearnMore";
 import Footer from "./SpinsterFooter";
 
 const Spinster = () => {
@@ -11,9 +9,7 @@ const Spinster = () => {
     <div className="Spinster">
       <NavBar />
       <Banner />
-      {/* <Skills /> */}
-      <Projects />
-      {/* <Contact /> */}
+      <LearnMore/>
       <Footer />
     </div>
   );
