@@ -138,8 +138,7 @@ const Sound = () => {
             toggle();
             setShowSlider((prev) => !prev); // Toggle slider visibility
           }}
-          className="bg-gray-800 text-white p-2 rounded-full shadow-lg hover:bg-gray-700 focus:outline-none"
-        >
+          className="bg-gray-800 text-white p-3 pt-6 rounded-full shadow-lg hover:bg-gray-700 focus:outline-none">
           {isPlaying ? <Volume2 /> : <VolumeX />}
         </motion.button>
       </motion.div>
