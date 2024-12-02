@@ -2,6 +2,7 @@
 import Image from "next/image";
 import RenderModel from "../components/RenderModel";
 import Navigation from "../components/navigation";
+import FloatingBackground from "@/components/FloatingBackground";
 import Heading from "@/components/navigation/Heading"
 import bg from "../../public/background/test3.png";
 import { useEffect } from "react";
@@ -38,7 +39,7 @@ export default function Home() {
         }}
         className="-z-50 w-full h-full fixed"
       />
-
+     
       {/* Top White Bar */}
       <Heading/>
 

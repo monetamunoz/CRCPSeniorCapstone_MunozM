@@ -25,7 +25,7 @@ const Heading = ({ toggleMusic, isPlaying }) => {
         </div>
       </div>
     </div>
-  );
+  );z
 };
 
 export default Heading;

@@ -4,6 +4,8 @@ import React, { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { motion } from "framer-motion";
+import { BtnList } from "@/app/data"; 
+
 
 // Function to get icons for dropdown items
 const getIcon = (icon) => {
@@ -29,17 +31,6 @@ const getIcon = (icon) => {
   }
 };
 
-const additionalLinks = [
-  { label: "Spinster Records", link: "/stores/spinster", icon: "Spinster Records", newTab: false },
-  { label: "Top-Ten Records", link: "/about", icon: "Top-Ten Records", newTab: false },
-  { label: "Good Records", link: "/projects", icon: "Good Records", newTab: false },
-  { label: "Josey Records - Farmers Branch", link: "/contact", icon: "Josey Records - Dallas", newTab: false },
-  { label: "Dead Wax Records", link: "https://www.github.com/codebucks27", icon: "Dead Wax Records", newTab: true },
-  { label: "Off the Record", link: "https://www.linkedin.com/in/codebucks", icon: "Off the Record", newTab: true },
-  { label: "Black Cat Records", link: "https://www.x.com/code_bucks", icon: "Black Cat Records", newTab: true },
-  { label: "The Spin", link: "/resume.pdf", icon: "The Spin", newTab: true },
-];
-
 const DropdownMenu = () => {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
 
@@ -64,9 +55,9 @@ const DropdownMenu = () => {
           animate={{ opacity: 1, y: 0 }}
           exit={{ opacity: 0, y: -10 }}
           transition={{ duration: 0.3 }}
-          className="absolute mt-2  bg-homeBar/50 backdrop-blur-md rounded-lg shadow-lg w-48"
+          className="absolute mt-2 bg-homeBar/50 backdrop-blur-md rounded-lg shadow-lg w-48"
         >
-          {additionalLinks.map((link, index) => (
+          {BtnList.map((link, index) => (
             <Link
               key={index}
               href={link.link}
@@ -85,4 +76,3 @@ const DropdownMenu = () => {
 };
 
 export default DropdownMenu;
-
