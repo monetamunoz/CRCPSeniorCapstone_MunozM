@@ -55,7 +55,7 @@ export const Banner = () => {
             <TrackVisibility>
               {({ isVisible }) => (
                 <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
-                  <span className="tagline font-itckabelM text-white">117290 Preston Rd Ste 106, Dallas, TX 75252</span>
+                  <span className="tagline font-itckabelM text-white">17290 Preston Rd Ste 106, Dallas, TX 75252</span>
                   <h1 className="font-itckabel">
                     {`The Spin selling`}{" "}
                     <span

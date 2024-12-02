@@ -7,42 +7,43 @@ import "animate.css"; // Animation CSS
 
 export const Projects = () => {
   const projects = [
-    { 
-      // Sells Vinyl
-      title : "Vinyl Collection",
-      description: "Discover a curated selection of new and vintage vinyl records.",
-      imgUrl: "/assets/img/Spinster_vinyl.webp",
-    },
     {
-      // Sells turntables
-      title: "Turntables",
-      description: "Shop high-quality turntables for your listening experience.",
-      imgUrl: "/assets/img/Spinster_products.webp",
-    },
-    {
-      // Sells audio accessories
-      title: "Audio Accessories",
-      description: "Enhance your setup with premium audio gear and accessories.",
-      imgUrl: "/assets/img/Spinster_accessories.webp",
-    },
-    {
-      // Purchases Vinyl
-      title: "Sell Your Vinyl",
-      description: "Bring in your records and sell them for cash or store credit.",
-      imgUrl: "/assets/img/Spinster_purchase.webp",
-    },
-    {
-      // Has a concert stage for their venue
-    title: "Live Music Stage",
-    description: "Enjoy live performances at their in-store concert stage.",
-    imgUrl: "/assets/img/Spinster_stage.png",
-    },
-    {
-      // RSD Participant
-    title: "Record Store Day Participant",
-    description: "Join for exclusive vinyl releases and events on RSD.",
-    imgUrl: "/assets/img/Spinster_RSD.png",
-    },
+        // Specialized Vinyl Collection
+        title: "Specialized Vinyl Collection",
+        description: "Explore niche genres like post-punk, industrial, Britpop, and rare soundtracks.",
+        imgUrl: "/assets/img/deadwax/deadwax_sold.jpg",
+      },
+      {
+        // Intimate and Curated Store Experience
+        title: "Intimate and Curated Store Experience",
+        description: "Enjoy a thoughtfully organized layout perfect for seasoned collectors and newcomers alike.",
+        imgUrl: "/assets/img/deadwax/deadwax_vibe.jpg",
+      },
+      {
+        // Friendly and Knowledgeable Staff
+        title: "Friendly and Knowledgeable Staff",
+        description: "Discover personalized recommendations and exceptional service from passionate music experts.",
+        imgUrl: "/assets/img/deadwax/deadwax_staff.jpg",
+      },
+      {
+        // Community Vibes and Local Support
+        title: "Community Vibes and Local Support",
+        description: "Connect with other music enthusiasts and support a store dedicated to fostering local culture.",
+        imgUrl: "/assets/img/deadwax/deadwax_community.jpg",
+      },
+      {
+        // RSD Participant
+        title: "Record Store Day Participant",
+        description: "Join exclusive vinyl releases and events as part of Record Store Day celebrations.",
+        imgUrl: "/assets/img/deadwax/deadwax_rsd.jpg",
+      },
+      {
+        // In-store Listening and Discovery
+        title: "In-store Listening and Discovery",
+        description: "Preview unsealed records on-site for an immersive music discovery experience.",
+        imgUrl: "/assets/img/deadwax/deadwax_location.jpg",
+      },
+      
   ];
 
   return (

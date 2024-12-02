@@ -7,42 +7,43 @@ import "animate.css"; // Animation CSS
 
 export const Projects = () => {
   const projects = [
-    { 
-      // Sells Vinyl
-      title : "Vinyl Collection",
-      description: "Discover a curated selection of new and vintage vinyl records.",
-      imgUrl: "/assets/img/Spinster_vinyl.webp",
-    },
     {
-      // Sells turntables
-      title: "Turntables",
-      description: "Shop high-quality turntables for your listening experience.",
-      imgUrl: "/assets/img/Spinster_products.webp",
-    },
-    {
-      // Sells audio accessories
-      title: "Audio Accessories",
-      description: "Enhance your setup with premium audio gear and accessories.",
-      imgUrl: "/assets/img/Spinster_accessories.webp",
-    },
-    {
-      // Purchases Vinyl
-      title: "Sell Your Vinyl",
-      description: "Bring in your records and sell them for cash or store credit.",
-      imgUrl: "/assets/img/Spinster_purchase.webp",
-    },
-    {
-      // Has a concert stage for their venue
-    title: "Live Music Stage",
-    description: "Enjoy live performances at their in-store concert stage.",
-    imgUrl: "/assets/img/Spinster_stage.png",
-    },
-    {
-      // RSD Participant
-    title: "Record Store Day Participant",
-    description: "Join for exclusive vinyl releases and events on RSD.",
-    imgUrl: "/assets/img/Spinster_RSD.png",
-    },
+        // Coffee and Vinyl Fusion
+        title: "Coffee and Vinyl Fusion",
+        description: "Experience the perfect pairing of artisanal coffee and curated vinyl records.",
+        imgUrl: "/assets/img/spin/spin_coffee_vinyl.jpg",
+      },
+      {
+        // Cereal Bar and Board Games
+        title: "Cereal Bar and Board Games",
+        description: "Relive childhood nostalgia with a cereal bar and enjoy board games with friends.",
+        imgUrl: "/assets/img/spin/spin_cereal_games.jpg",
+      },
+      {
+        // Unique Vinyl Collection
+        title: "Unique Vinyl Collection",
+        description: "Browse an eclectic mix of timeless classics, modern hits, and niche genres.",
+        imgUrl: "/assets/img/spin/spin_vinyl_collection.jpg",
+      },
+      {
+        // Craft Coffee and Local Pastries
+        title: "Craft Coffee and Local Pastries",
+        description: "Savor expertly brewed coffee paired with pastries from local bakeries.",
+        imgUrl: "/assets/img/spin/spin_coffee_pastries.jpg",
+      },
+      {
+        // Record Store Day Participant
+        title: "Record Store Day Participant",
+        description: "Celebrate music with exclusive vinyl releases and community events.",
+        imgUrl: "/assets/img/spin/spin_rsd.jpg",
+      },
+      {
+        // Welcoming Community Atmosphere
+        title: "Welcoming Community Atmosphere",
+        description: "A social space designed for music lovers and coffee enthusiasts to connect.",
+        imgUrl: "/assets/img/spin/spin_community.jpg",
+      },
+      
   ];
 
   return (
@@ -124,7 +125,7 @@ export const Projects = () => {
                       />
                       <div className="proj-txtx">
                         <h4 className="font-itckabelM">Store Location</h4>
-                        <span>Find them at the heart of the Bishop Arts District.</span>
+                      
                       </div>
                     </div>
                   </Tab.Pane>

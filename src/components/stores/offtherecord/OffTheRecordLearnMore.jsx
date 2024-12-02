@@ -7,42 +7,43 @@ import "animate.css"; // Animation CSS
 
 export const Projects = () => {
   const projects = [
-    { 
-      // Sells Vinyl
-      title : "Vinyl Collection",
-      description: "Discover a curated selection of new and vintage vinyl records.",
-      imgUrl: "/assets/img/Spinster_vinyl.webp",
-    },
     {
-      // Sells turntables
-      title: "Turntables",
-      description: "Shop high-quality turntables for your listening experience.",
-      imgUrl: "/assets/img/Spinster_products.webp",
-    },
-    {
-      // Sells audio accessories
-      title: "Audio Accessories",
-      description: "Enhance your setup with premium audio gear and accessories.",
-      imgUrl: "/assets/img/Spinster_accessories.webp",
-    },
-    {
-      // Purchases Vinyl
-      title: "Sell Your Vinyl",
-      description: "Bring in your records and sell them for cash or store credit.",
-      imgUrl: "/assets/img/Spinster_purchase.webp",
-    },
-    {
-      // Has a concert stage for their venue
-    title: "Live Music Stage",
-    description: "Enjoy live performances at their in-store concert stage.",
-    imgUrl: "/assets/img/Spinster_stage.png",
-    },
-    {
-      // RSD Participant
-    title: "Record Store Day Participant",
-    description: "Join for exclusive vinyl releases and events on RSD.",
-    imgUrl: "/assets/img/Spinster_RSD.png",
-    },
+        // Coffee and Vinyl Fusion
+        title: "Coffee and Vinyl Fusion",
+        description: "Experience the perfect pairing of artisanal coffee and curated vinyl records.",
+        imgUrl: "/assets/img/spin/spin_coffee_vinyl.jpg",
+      },
+      {
+        // Cereal Bar and Board Games
+        title: "Cereal Bar and Board Games",
+        description: "Relive childhood nostalgia with a cereal bar and enjoy board games with friends.",
+        imgUrl: "/assets/img/spin/spin_cereal_games.jpg",
+      },
+      {
+        // Unique Vinyl Collection
+        title: "Unique Vinyl Collection",
+        description: "Browse an eclectic mix of timeless classics, modern hits, and niche genres.",
+        imgUrl: "/assets/img/spin/spin_vinyl_collection.jpg",
+      },
+      {
+        // Craft Coffee and Local Pastries
+        title: "Craft Coffee and Local Pastries",
+        description: "Savor expertly brewed coffee paired with pastries from local bakeries.",
+        imgUrl: "/assets/img/spin/spin_coffee_pastries.jpg",
+      },
+      {
+        // Record Store Day Participant
+        title: "Record Store Day Participant",
+        description: "Celebrate music with exclusive vinyl releases and community events.",
+        imgUrl: "/assets/img/spin/spin_rsd.jpg",
+      },
+      {
+        // Welcoming Community Atmosphere
+        title: "Welcoming Community Atmosphere",
+        description: "A social space designed for music lovers and coffee enthusiasts to connect.",
+        imgUrl: "/assets/img/spin/spin_community.jpg",
+      },
+       
   ];
 
   return (
@@ -53,14 +54,7 @@ export const Projects = () => {
             <div>
               <h2 className="text-homeBar font-itckabel">Learn More</h2>
               <p>
-              Spinster Records isn't just a store; it's a vibrant community hub for music lovers, 
-              vinyl enthusiasts, and creatives alike. Explore a curated selection of vintage and new vinyl, 
-              discover unique audio gear, and dive into the stories behind favorite records. 
-              </p>
-              <p>
-              From in-store events like live performances and industry panels to personalized recommendations 
-              from their knowledgeable staff, Spinster Records is a place where music and lifestyle intersect. 
-              Join in celebrating the art and culture of sound.
+              The Spin Coffee & Vinyl is more than just a coffee shop or record store; it’s a space designed to bring people together over shared passions for music and culture. Whether you’re sipping a lavender latte, flipping through vinyl classics, or enjoying a game of Scrabble with friends, The Spin invites you to slow down and savor the moment. Its curated collection of records, community-focused atmosphere, and creative menu make it a destination for coffee enthusiasts and music lovers alike. Stop by and discover how The Spin transforms a simple outing into an unforgettable experience.
               </p>
               <Tab.Container id="projects-tabs" defaultActiveKey="first">
                 <Nav
@@ -88,34 +82,23 @@ export const Projects = () => {
                   </Tab.Pane>
                   <Tab.Pane eventKey="second">
                     <p>
-                      Spinster Records, established in 2014, is a vinyl record and music lifestyle store located in the Oak Cliff neighborhood of Dallas, TX. 
-                      The shop offers a curated selection of new and vintage vinyl records, turntables, hi-fi audio hardware, apparel, books, jewelry, and unique items selected by the staff. 
-                      Weekly events include in-store performances, book signings, and music industry panels, making it a vibrant hub for music lovers.
-                      </p>
-                      <p>
-                      In 2020, Spinster moved to the Bishop Arts District, enhancing its presence in a thriving community known for art, food, and culture. 
-                      The store features standout design elements, including the Big Red Wall and a mural of the Dallas skyline, 
-                      alongside locally designed Oak Cliff Apparel by Lewellyn’s Print Shop and exclusive items like pins and stickers from local artists.
-                      </p>
-                      <p>
-                      Spinster Records also buys vinyl records and hi-fi hardware, offering fair quotes. 
-                      Its services extend beyond the store with pop-ups, all-vinyl DJ sets, and event bookings. 
-                      Spinster continues to celebrate music and creativity.
+                    The Spin Coffee & Vinyl is a unique hybrid concept that brings together the comfort of a coffee shop and the charm of a record store, creating a social space where music and mocha converge. Located in North Dallas, The Spin offers a welcoming environment filled with the aroma of fresh coffee, the warmth of cozy decor, and the timeless appeal of vinyl records spinning on a turntable.
                     </p>
+                      <p>
+                      The father-son duo behind The Spin, with a background in hosting community-driven spaces, has combined their love for music and hospitality to create this vibrant spot. Guests can enjoy a diverse selection of coffee drinks, including classics like vanilla and chocolate, as well as unique flavors like lavender and hazelnut. Paired with pastries from local favorites like La Casita Bakeshop and Reverie Bakeshop, the menu ensures a satisfying start to your day. With a record collection spanning classics to modern hits across genres like punk, jazz, and pop, and even turntables and accessories for sale, The Spin offers an immersive experience for music enthusiasts. Add in a cereal bar and a variety of board games, and The Spin becomes more than a coffee shop—it’s a community hub designed to bring people together.
+                      </p>
+                      
                   </Tab.Pane>
                   <Tab.Pane eventKey="third">
                     <p>
-                    Spinster Records is conveniently located in the heart of the vibrant Bishop Arts District at 408 N Bishop Ave, Suite 102, Dallas, TX 75208. 
-                    The store is easily accessible and surrounded by a lively neighborhood filled with shops, restaurants, and creative energy. 
+                    The Spin Coffee & Vinyl is located at 17290 Preston Road, No. 106, Dallas, TX 75252, nestled in the heart of North Dallas. This cozy and welcoming space offers the perfect setting to enjoy great coffee, browse an eclectic vinyl collection, and connect with fellow enthusiasts. The shop is open Tuesday through Saturday from 8:00 AM to 8:00 PM, making it an ideal stop for morning coffee, an afternoon browsing session, or an early evening hangout. On Sundays, the shop opens from 10:00 AM to 6:00 PM, offering a relaxed vibe for weekend visitors. 
                     </p>
                     <p>
-                    Spinster Records welcomes visitors seven days a week, with hours tailored to fit your schedule: Monday through Thursday from 11:00 AM to 9:00 PM, 
-                    Friday and Saturday from 11:00 AM to 11:00 PM, and Sunday from 12:00 PM to 8:00 PM. Whether you're browsing for vinyl, shopping for unique gifts, 
-                    or attending one of our in-store events, they are here to provide a memorable experience.
+                    The Spin is closed on Mondays, ensuring the team is refreshed to deliver an exceptional experience the rest of the week. Whether you’re stopping by for a quick coffee, picking up a vinyl, or spending the day soaking in the atmosphere, The Spin Coffee & Vinyl has hours that suit a variety of schedules.
                     </p>
                     <div className="proj-imgbx" style={{ maxWidth: '250px', margin: '0 auto' }}>
                       <Image
-                        src="/assets/img/Spinster_map.png" // Replace with the actual image path
+                        src="/assets/img/otr/offtherecord_map.png" // Replace with the actual image path
                         alt="Google Map Location"
                         className="img-fluid"
                         width={200}
@@ -124,7 +107,6 @@ export const Projects = () => {
                       />
                       <div className="proj-txtx">
                         <h4 className="font-itckabelM">Store Location</h4>
-                        <span>Find them at the heart of the Bishop Arts District.</span>
                       </div>
                     </div>
                   </Tab.Pane>
