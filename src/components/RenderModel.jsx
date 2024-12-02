@@ -18,7 +18,7 @@ const RenderModel = ({ children, className }) => {
         {/* Add a light that casts shadows */}
       <directionalLight
         castShadow
-        position={[10, 10, 5]}
+        position={[5, 10, 5]}
         intensity={1.5}
         shadow-mapSize={[1024, 1024]}
       />

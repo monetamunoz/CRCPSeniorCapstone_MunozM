@@ -29,7 +29,7 @@ const Vinylrecord = React.memo(function Vinylrecord(props) {
       {...props}
       dispose={null}
       ref={modelRef}
-      position={[0, 0.25, 0]}
+      position={[0.30, 0.80, .2]}
       scale={[0.4, 0.4, 0.4]}
       rotation={[0.9, -0.2, 0]}
     >
