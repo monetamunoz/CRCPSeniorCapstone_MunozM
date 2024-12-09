@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, useCallback } from "react";
 import Image from "next/image";
 import { Container, Row, Col } from "react-bootstrap";
 import { ArrowRightCircle } from "react-bootstrap-icons";
@@ -14,17 +14,7 @@ export const Banner = () => {
   const toRotate = ["vinyl", "CDs, tapes, & movies", "turntables", "apparel & local goods"];
   const period = 2000;
 
-  useEffect(() => {
-    const ticker = setInterval(() => {
-      tick();
-    }, delta);
-
-    return () => {
-      clearInterval(ticker);
-    };
-  }, [text]);
-
-  const tick = () => {
+  const tick = useCallback(() => {
     const i = loopNum % toRotate.length;
     const fullText = toRotate[i];
     const updatedText = isDeleting
@@ -45,7 +35,17 @@ export const Banner = () => {
       setLoopNum(loopNum + 1);
       setDelta(500);
     }
-  };
+  }, [isDeleting, loopNum, text]);
+
+  useEffect(() => {
+    const ticker = setInterval(() => {
+      tick();
+    }, delta);
+
+    return () => {
+      clearInterval(ticker);
+    };
+  }, [tick, delta]);
 
   return (
     <section className="banner" id="home">
@@ -55,7 +55,9 @@ export const Banner = () => {
             <TrackVisibility>
               {({ isVisible }) => (
                 <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
-                  <span className="tagline font-itckabelM text-white">338 Jefferson Blvd, Dallas, TX 75208</span>
+                  <span className="tagline font-itckabelM text-white">
+                    338 Jefferson Blvd, Dallas, TX 75208
+                  </span>
                   <h1 className="font-itckabel">
                     {`Top Ten Records selling`}{" "}
                     <span
@@ -67,7 +69,7 @@ export const Banner = () => {
                     </span>
                   </h1>
                   <p>
-                  Dallas's oldest record shop carrying a selection of Tejano, hip-hop, rock & other music genres, plus memorabilia.
+                    Dallas&apos;s oldest record shop carrying a selection of Tejano, hip-hop, rock & other music genres, plus memorabilia.
                   </p>
                   <a
                     href="https://www.toptenrecords.org/"

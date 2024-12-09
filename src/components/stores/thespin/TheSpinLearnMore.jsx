@@ -8,42 +8,35 @@ import "animate.css"; // Animation CSS
 export const Projects = () => {
   const projects = [
     {
-        // Coffee and Vinyl Fusion
-        title: "Coffee and Vinyl Fusion",
-        description: "Experience the perfect pairing of artisanal coffee and curated vinyl records.",
-        imgUrl: "/assets/img/spin/spin_coffee_vinyl.jpg",
-      },
-      {
-        // Cereal Bar and Board Games
-        title: "Cereal Bar and Board Games",
-        description: "Relive childhood nostalgia with a cereal bar and enjoy board games with friends.",
-        imgUrl: "/assets/img/spin/spin_cereal_games.jpg",
-      },
-      {
-        // Unique Vinyl Collection
-        title: "Unique Vinyl Collection",
-        description: "Browse an eclectic mix of timeless classics, modern hits, and niche genres.",
-        imgUrl: "/assets/img/spin/spin_vinyl_collection.jpg",
-      },
-      {
-        // Craft Coffee and Local Pastries
-        title: "Craft Coffee and Local Pastries",
-        description: "Savor expertly brewed coffee paired with pastries from local bakeries.",
-        imgUrl: "/assets/img/spin/spin_coffee_pastries.jpg",
-      },
-      {
-        // Record Store Day Participant
-        title: "Record Store Day Participant",
-        description: "Celebrate music with exclusive vinyl releases and community events.",
-        imgUrl: "/assets/img/spin/spin_rsd.jpg",
-      },
-      {
-        // Welcoming Community Atmosphere
-        title: "Welcoming Community Atmosphere",
-        description: "A social space designed for music lovers and coffee enthusiasts to connect.",
-        imgUrl: "/assets/img/spin/spin_community.jpg",
-      },
-      
+      title: "Coffee and Vinyl Fusion",
+      description: "Experience the perfect pairing of artisanal coffee and curated vinyl records.",
+      imgUrl: "/assets/img/spin/spin_coffee_vinyl.jpg",
+    },
+    {
+      title: "Cereal Bar and Board Games",
+      description: "Relive childhood nostalgia with a cereal bar and enjoy board games with friends.",
+      imgUrl: "/assets/img/spin/spin_cereal_games.jpg",
+    },
+    {
+      title: "Unique Vinyl Collection",
+      description: "Browse an eclectic mix of timeless classics, modern hits, and niche genres.",
+      imgUrl: "/assets/img/spin/spin_vinyl_collection.jpg",
+    },
+    {
+      title: "Craft Coffee and Local Pastries",
+      description: "Savor expertly brewed coffee paired with pastries from local bakeries.",
+      imgUrl: "/assets/img/spin/spin_coffee_pastries.jpg",
+    },
+    {
+      title: "Record Store Day Participant",
+      description: "Celebrate music with exclusive vinyl releases and community events.",
+      imgUrl: "/assets/img/spin/spin_rsd.jpg",
+    },
+    {
+      title: "Welcoming Community Atmosphere",
+      description: "A social space designed for music lovers and coffee enthusiasts to connect.",
+      imgUrl: "/assets/img/spin/spin_community.jpg",
+    },
   ];
 
   return (
@@ -54,14 +47,12 @@ export const Projects = () => {
             <div>
               <h2 className="text-homeBar font-itckabel">Learn More</h2>
               <p>
-              Spinster Records isn't just a store; it's a vibrant community hub for music lovers, 
-              vinyl enthusiasts, and creatives alike. Explore a curated selection of vintage and new vinyl, 
-              discover unique audio gear, and dive into the stories behind favorite records. 
+                The Spin isn&apos;t just a coffee shop; it&apos;s a cultural hotspot that blends music, nostalgia, and creativity. 
+                With a curated vinyl collection, artisanal coffee, and a welcoming community atmosphere, it&apos;s the perfect place to unwind and connect.
               </p>
               <p>
-              From in-store events like live performances and industry panels to personalized recommendations 
-              from their knowledgeable staff, Spinster Records is a place where music and lifestyle intersect. 
-              Join in celebrating the art and culture of sound.
+                From their unique cereal bar to Record Store Day celebrations, The Spin offers a diverse range of experiences 
+                for music lovers, coffee enthusiasts, and everyone in between. It&apos;s a space where great taste meets great vibes.
               </p>
               <Tab.Container id="projects-tabs" defaultActiveKey="first">
                 <Nav
@@ -89,34 +80,28 @@ export const Projects = () => {
                   </Tab.Pane>
                   <Tab.Pane eventKey="second">
                     <p>
-                      Spinster Records, established in 2014, is a vinyl record and music lifestyle store located in the Oak Cliff neighborhood of Dallas, TX. 
-                      The shop offers a curated selection of new and vintage vinyl records, turntables, hi-fi audio hardware, apparel, books, jewelry, and unique items selected by the staff. 
-                      Weekly events include in-store performances, book signings, and music industry panels, making it a vibrant hub for music lovers.
-                      </p>
-                      <p>
-                      In 2020, Spinster moved to the Bishop Arts District, enhancing its presence in a thriving community known for art, food, and culture. 
-                      The store features standout design elements, including the Big Red Wall and a mural of the Dallas skyline, 
-                      alongside locally designed Oak Cliff Apparel by Lewellyn’s Print Shop and exclusive items like pins and stickers from local artists.
-                      </p>
-                      <p>
-                      Spinster Records also buys vinyl records and hi-fi hardware, offering fair quotes. 
-                      Its services extend beyond the store with pop-ups, all-vinyl DJ sets, and event bookings. 
-                      Spinster continues to celebrate music and creativity.
+                      Located in the heart of the community, The Spin offers more than just coffee and vinyl. 
+                      It&apos;s a creative hub where you can enjoy board games with friends, discover rare records, or indulge in locally baked pastries. 
+                      The curated collection of music spans genres and decades, offering something for every taste.
+                    </p>
+                    <p>
+                      Beyond its offerings, The Spin is dedicated to fostering a sense of community. 
+                      From live DJ sets to interactive events, it provides a platform for local talent and a gathering place for like-minded individuals. 
+                      Whether you&apos;re exploring the vinyl selection or sipping on a latte, The Spin delivers a unique and memorable experience.
                     </p>
                   </Tab.Pane>
                   <Tab.Pane eventKey="third">
                     <p>
-                    Spinster Records is conveniently located in the heart of the vibrant Bishop Arts District at 408 N Bishop Ave, Suite 102, Dallas, TX 75208. 
-                    The store is easily accessible and surrounded by a lively neighborhood filled with shops, restaurants, and creative energy. 
+                      The Spin is conveniently located at 123 Vinyl Lane, Music City, TX, making it a central destination for coffee and music lovers alike. 
+                      Surrounded by vibrant shops and eateries, it&apos;s the perfect spot for a morning pick-me-up or an evening hangout.
                     </p>
                     <p>
-                    Spinster Records welcomes visitors seven days a week, with hours tailored to fit your schedule: Monday through Thursday from 11:00 AM to 9:00 PM, 
-                    Friday and Saturday from 11:00 AM to 11:00 PM, and Sunday from 12:00 PM to 8:00 PM. Whether you're browsing for vinyl, shopping for unique gifts, 
-                    or attending one of our in-store events, they are here to provide a memorable experience.
+                      Open seven days a week, The Spin ensures accessibility for all schedules: Monday through Thursday from 8:00 AM to 8:00 PM, 
+                      Friday and Saturday from 8:00 AM to 10:00 PM, and Sunday from 9:00 AM to 7:00 PM.
                     </p>
-                    <div className="proj-imgbx" style={{ maxWidth: '250px', margin: '0 auto' }}>
+                    <div className="proj-imgbx" style={{ maxWidth: "250px", margin: "0 auto" }}>
                       <Image
-                        src="/assets/img/Spinster_map.png" // Replace with the actual image path
+                        src="/assets/img/spin/spin_map.png"
                         alt="Google Map Location"
                         className="img-fluid"
                         width={200}
@@ -125,7 +110,7 @@ export const Projects = () => {
                       />
                       <div className="proj-txtx">
                         <h4 className="font-itckabelM">Store Location</h4>
-                      
+                        <span>Find them at the heart of Music City.</span>
                       </div>
                     </div>
                   </Tab.Pane>
